@@ -13,4 +13,4 @@ Este é um repositório do curso de HTML5 + CSS3 da Alura, ainda em desenvolvime
 
 ### 📝 Licença
 
-Esse projeto está sob licença MIT. Veja o arquivo [LICENÇA](LICENSE.md) para mais detalhes.
+Esse projeto está sob licença MIT. Veja o arquivo [LICENÇA](https://github.com/RuyArmando/alura-html5-css3/blob/main/LICENSE) para mais detalhes.

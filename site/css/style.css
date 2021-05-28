@@ -94,15 +94,18 @@ footer {
 	margin: 20px 0 0;
 }
 
-main {
-
+/*css da pagina contato */
+.contato {
+    padding: 3em 0;
+    width: 940px;
+    margin: 0 auto;
 }
 
 form {
 	margin: 40px 0;
 }
 
-form label, form legend {
+form label, form legend, form fieldset {
 	display:block;
 	font-size: 20px;
 	margin: 0 0 10px;
@@ -113,6 +116,16 @@ form label, form legend {
 	margin: 0 0 20px;
 	padding: 10px 25px;
 	width: 50%;
+}
+
+.selecao-horario {   
+	-webkit-appearance: none;    
+	-moz-appearance: none; 
+	appearance: none; 
+  
+	width: 50%;   
+	height:30px;   
+	border:1px solid #ddd;
 }
 
 .checkbox {
@@ -153,6 +166,7 @@ td, th {
 }
 
 /* css da pagina principal */
+
 .banner {
 	width: 100%;
 }
@@ -169,6 +183,7 @@ td, th {
     font-size: 2em;
     margin: 0 0 1em;
     clear: left;
+    color: rgb(0,0,0,0.3);
 }
 
 .principal p {
@@ -238,10 +253,67 @@ td, th {
 
 .imagem-beneficios {
     width: 60%;
+    opacity: 1;
+    transition: 400ms;
+    box-shadow: 10px 10px 10px 0 #000000;
+}
+
+.imagem-beneficios:hover {
+    opacity: 0.3;
 }
 
 .video {
     width: 560px;
     margin: 2em auto;
+}
+
+@media screen and (max-width: 480px) {
+    .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video {
+        width: auto;
+    }
+
+    .contato {
+        display: block;
+        width: auto;
+        /* superior | direita | inferior | esquerda */
+        padding: 3em 0 0 1em;
+    }
+
+    .input-padrao
+    {
+    	width: calc(80% - 20px);
+    }
+
+    .enviar {
+    	width: calc(80% - 20px);
+    }
+
+    .enviar:hover{
+	    transform: none;
+	}
+
+    .produtos {
+        display: block;
+        width: auto;
+    }
+
+    .produtos li {
+        display: block;
+        width: auto;
+        /* vertical | horizontal */
+        margin: 2% 1.5%;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    nav {
+        position: static;
+    }
+
+    .lista-beneficios, .imagem-beneficios {
+        width: 100%;
+    }
 }
 

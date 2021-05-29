@@ -1,6 +1,6 @@
 ## HTML5 + CSS3
 
-Este é um repositório do curso de HTML5 + CSS3 da Alura, ainda em desenvolvimento, onde criamos um site para Barbearia, com as páginas: Home, Produtos e Contato.
+Este é um repositório do curso de HTML5 + CSS3 da Alura onde criamos um site para Barbearia, com as páginas: Home, Produtos e Contato.
 
 ### 💻 Pré-requisitos
 
